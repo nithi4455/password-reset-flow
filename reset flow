@@ -1,0 +1,11 @@
+# Exported from Render on 2024-05-15T04:35:00Z
+services:
+- type: web
+  name: password-reset-flow-11
+  runtime: node
+  repo: https://github.com/nithi4455/password-reset-flow
+  plan: free
+  region: oregon
+  buildCommand: npm install; npm run build
+  startCommand: node index.js
+version: "1"
